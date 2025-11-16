@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
   <meta charset="UTF-8" />
-  <title>Observable Chart</title>
+  <title>แผนผังลงคะแนน ส.ส.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background: #000;          /* ✅ พื้นหลังสีดำ */
+      background: #000;   /* 🔥 พื้นหลังสีดำทั้งหน้า */
     }
 
     body {
@@ -21,12 +23,15 @@
       border: 0;
       width: 100%;
       height: 100vh;
-      background: transparent;   /* ให้ iframe โปร่งใส ถ้าด้านในรองรับ */
+      background: transparent;  /* 🔥 ปล่อยให้เนื้อหา Observable โชว์ตามเดิม */
     }
   </style>
 </head>
+
 <body>
-<iframe width="100%" height="1036.890625" frameborder="0"
-  src="https://observablehq.com/embed/cddb2aacb5a558a1?cells=ChartBarWithTiles"></iframe>
+  <iframe
+    src="https://observablehq.com/embed/cddb2aacb5a558a1?cells=ChartBarWithTiles"
+    frameborder="0"
+  ></iframe>
 </body>
 </html>
